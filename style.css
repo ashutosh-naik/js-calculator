@@ -1,89 +1,86 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #E8F9FD;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  background-color: #e8f9fd;
+  font-family: "Space Grotesk", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .calculator {
-    background-color: #5272f2;
-    padding: 20px;
-    border-radius: 10px;
+  background-color: #5272f2;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .screen {
-    width: 224px;
-    background-color: #98e4ff;
-    padding: 4px;
-    font-size: 40px;
-    text-align: end;
+  width: 224px;
+  background-color: #98e4ff;
+  padding: 4px;
+  font-size: 2.5rem;
+  text-align: end;
 }
 
 .buttons {
-    width: 232px;
-    display: flex;
-    flex-wrap: wrap;
+  width: 232px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 button {
-    color: #ffffff;
-    background-color: #f99417;
-    font-size: 40px;
-    font-family: "Space Grotesk", Arial, sans-serif;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    border: none;
-    margin: 4px;
-    cursor: pointer;
-    transition: background-color 0.15s;
+  color: #ffffff;
+  background-color: #f99417;
+  font-size: 2.5rem;
+  font-family: "Space Grotesk", Arial, sans-serif;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  margin: 4px;
+  cursor: pointer;
+  transition: background-color 0.15s;
 }
 
 button:hover {
-    background-color: #e98300;
+  background-color: #e98300;
 }
 
 button:active {
-    background-color: #ffab4c;
+  background-color: #ffab4c;
 }
 
 #equals {
-    background-color: #bb2525;
-    transition: background-color 0.15s;
+  background-color: #bb2525;
+  transition: background-color 0.15s;
 }
 
 #equals:hover {
-    background-color: #a81e1e;
+  background-color: #a81e1e;
 }
 
 #equals:active {
-    background-color: #c42c2c;
+  background-color: #c42c2c;
 }
 
 #clear {
-    width: 100%;
-    background-color: #ff6d60;
-    font-size: 30px;
-    transition: background-color 0.15s;
+  width: 100%;
+  background-color: #ff6d60;
+  font-size: 1.8rem;
+  transition: background-color 0.15s;
 }
 
 #clear:hover {
-    width: 100%;
-    background-color: #ff5a4d;
-    font-size: 30px;
+  background-color: #ff5a4d;
 }
 
 #clear:active {
-    width: 100%;
-    background-color: #ff7e73;
-    font-size: 30px;
+  background-color: #ff7e73;
 }
