@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #192655;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  background-color: #3876bf;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.screen {
+  width: 224px;
+  background-color: #98e4ff;
+  padding: 4px;
+  font-size: 40px;
+  text-align: end;
+}
+
+.buttons {
+  width: 232px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  color: #ffffff;
+  background-color: #f99417;
+  font-size: 40px;
+  font-family: "Space Grotesk", Arial, sans-serif;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  margin: 4px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+button:hover {
+  background-color: #e98300;
+}
+
+button:active {
+  background-color: #ffab4c;
+}
+
+#equals {
+  background-color: #BB2525;
+  transition: background-color 0.15s;
+}
+
+#equals:hover {
+  background-color: #A81E1E;
+}
+
+#equals:active {
+  background-color: #C42C2C;
+}
+
+#clear {
+  width: 100%;
+  background-color: #FF6D60;
+  font-size: 30px;
+  transition: background-color 0.15s;
+}
+
+#clear:hover {
+  width: 100%;
+  background-color: #FF5A4D;
+  font-size: 30px;
+}
+
+#clear:active {
+  width: 100%;
+  background-color: #FF7E73;
+  font-size: 30px;
+}
