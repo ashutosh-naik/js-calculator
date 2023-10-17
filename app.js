@@ -8,7 +8,7 @@ function calculate(button) {
   const value = button.textContent;
   if (value === "CLEAR") {
     calculation = [];
-    screenDisplay.textContent = ".";
+    screenDisplay.textContent = " ";
   } else if (value === "=") {
     screenDisplay.textContent = eval(accumulativeCalculation);
   } else {

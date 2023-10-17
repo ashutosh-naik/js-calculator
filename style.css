@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #e8f9fd;
+  background-color: #ecf8f9;
   font-family: "Space Grotesk", Arial, sans-serif;
   display: flex;
   justify-content: center;
@@ -19,14 +19,17 @@ body {
   background-color: #5272f2;
   padding: 20px;
   border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(82, 114, 242, 0.3);
 }
 
 .screen {
-  width: 224px;
+  width: 100%;
   background-color: #98e4ff;
   padding: 4px;
   font-size: 2.5rem;
   text-align: end;
+  height: 54px;
+  /* justify-content: center; */
 }
 
 .buttons {
