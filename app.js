@@ -6,7 +6,7 @@ let accumulativeCalculation;
 
 function calculate(button) {
   const value = button.textContent;
-  if (value === "CLEAR") {
+  if (value === "AC") {
     calculation = [];
     screenDisplay.textContent = " ";
   } else if (value === "=") {
